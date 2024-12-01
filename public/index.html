@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation de terrains de badminton</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .nav-link {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #007bff;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+    .nav-link:hover {
+      background-color: #0056b3;
+    }
+    .admin-section {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #eee;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Application de réservation de terrains de badminton</h1>
+
+  <h2>Navigation</h2>
+
+  <!-- Lien pour afficher toutes les réservations -->
+  <a href="/reservations" class="nav-link">Voir les réservations</a>
+
+  <!-- Lien pour accéder à la page d'ajout d'une réservation -->
+  <a href="/reservations/add" class="nav-link">Ajouter une réservation</a>
+
+  <div class="admin-section">
+    <h2>Administration</h2>
+    <!-- Lien pour rendre un terrain indisponible -->
+    <a href="/admin/login" class="nav-link">Connexion administrateur</a>
+    <a href="/admin/unavailable" class="nav-link">Rendre un terrain indisponible</a>
+  </div>
+
+  <footer style="margin-top: 50px;">
+    <p>© 2024 Association de Badistes</p>
+  </footer>
+</body>
+</html>
