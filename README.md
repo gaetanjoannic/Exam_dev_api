@@ -26,11 +26,12 @@
 ### Tableau 
 
 | Ressources | URL | Methodes HTTP | Paramètre d'URL/Variations | Commentaires |
-| page d'accueil | / | GET | -------------------- | ------------ |
-| page de reservation | /reservation | GET/POST | ------------------ | ------------ |
-| suppression d'une réservation | /reservation/:id | DELETE | ------------ | ------------ |
-| liste des terrains | /terrains | GET | ------------ | ------------ |
-| authentification d'un admin | /auth/login | POST | ------------ | ------------ |
+| ---------- | --- | ------------- | -------------------------- | ------------ |
+| page d'accueil | / | GET | 
+| page de reservation | /reservation | GET/POST | 
+| suppression d'une réservation | /reservation/:id | DELETE | 
+| liste des terrains | /terrains | GET |
+| authentification d'un admin | /auth/login | POST | 
 
 
 ## Sécurité
@@ -41,6 +42,6 @@ Par manque d'organisation, j'ai mal géré la répartition du temps.
 
 ## Références
 
-[Le dépot du cours](https://github.com/paul-schuhm/web-api)
-[MDN](https://developer.mozilla.org/fr/)
-[Le site d'express](https://expressjs.com/)
+- [Le dépot du cours](https://github.com/paul-schuhm/web-api)
+- [MDN](https://developer.mozilla.org/fr/)
+- [Le site d'express](https://expressjs.com/)
